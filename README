@@ -1,0 +1,20 @@
+# PesoPro
+
+O **PesoPro** é uma aplicação para automatizar o processo de pesagem de filmes em uma linha de produção, substituindo o registro manual em papel e a posterior transcrição para planilhas. O sistema coleta dados de balanças e armazena as informações diretamente no banco de dados para facilitar o gerenciamento e o controle da produção.
+
+## Funcionalidades
+
+- Cadastro de filmes produzidos com peso e quantidade.
+- Registro do funcionário responsável pela produção.
+- Automação da coleta de dados das balanças.
+- Integração com banco de dados PostgreSQL.
+- Acesso à aplicação via rede local com IP fixo.
+
+## Tecnologias Utilizadas
+
+- **Back-end**: Java com Spring Boot
+- **Banco de Dados**: PostgreSQL
+- **Front-end**: Angular (a ser implementado)
+- **Containerização**: Docker (PostgreSQL rodando em contêiner)
+- **ORM**: JPA / Hibernate
+- **Gerenciamento de Dependências**: Maven
